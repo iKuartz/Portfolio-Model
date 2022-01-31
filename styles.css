@@ -19,18 +19,19 @@ h3 {
 h1{
     color:#EC5242;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: normal;
 }
 
 h2{
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: normal;
 }
 
 h3{
     color:#EC5242;
+    font-weight: normal;
 }
 
 p{
@@ -40,7 +41,7 @@ p{
 .home-intro {
     display:flex;
     flex-direction: column;
-    padding: 2% 2% 8%;
+    padding: 2% 3% 18%;
 }
 
 .intro-header {
@@ -69,7 +70,7 @@ p{
 
 .container-hello{
     color:#EC5242;
-    font-size: 20px;
+    font-size: 24px;
     margin-bottom: 1%;
 }
 
@@ -80,13 +81,48 @@ p{
     margin: 4% 2%;
 }
 
+.intro-foundation{
+    color: #5d5e61;
+}
+
+.foundation-place{
+    color: #272a31;
+    font-size: 18px;
+}
+
 .home-content{
     display:flex;
     flex-direction: column;
     padding: 8% 2%;
+    color: white;
 }
 
+.content-main {
+    align-self: center;
+    font-family: "Lato", sans-serif;
+    text-transform: none;
+    font-weight: bold;
+    color: white;
+}
 
+.content-card {
+    display: flex;
+    background-color: #5e616650;
+    margin: 2% 0%;
+    align-items: center;
+}
+
+.card-logo{
+    width: 20%;
+}
+
+.card-subject{
+    width: 30%;
+}
+.card-description{
+    width: 50%;
+    padding: 2% 2% 2% 0%;
+}
 
 @media screen and (min-width: 768px) {
 .about-hello {
