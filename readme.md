@@ -6,9 +6,9 @@
 
 ![screenshot](./app_screenshot.png)
 
-Website about poetic song lyrics requested by Microverse as a partial prerequisite for moving on to the next Module.
-The Home and About pages are necessary, others are good to have if possible.
-This is the design model for the website: https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
+Website about poetic song lyrics requested by Microverse as a partial prerequisite for moving on to the next Module. <br>
+The Home and About pages are necessary, others are good to have if possible.<br>
+This is the design model for the website: https://www.behance.net/gallery/29845175/CC-Global-Summit-2015<br>
 And these are the project requirements:
 
 ## General requirements
@@ -111,7 +111,7 @@ Give a ⭐️ if you like this project!
 
 This website was created based on the model kindly provided by [Cindy Shin](https://www.behance.net/adagio07) under the licence CC BY-NC 4.0.
 
-# h2 Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+## Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
 Disclaimer: This is a human-readable summary of (and not a substitute for) the [license](https://creativecommons.org/licenses/by-nc/4.0/legalcode).
 
