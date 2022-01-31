@@ -1,28 +1,28 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Poetic Song Lyrics
 
 > Capstone project for Module 1 of Microverse's program.
 
 ![screenshot](./app_screenshot.png)
 
-Website about American Poetry requested by Microverse as a partial prerequisite for moving on to the next Module.
+Website about poetic song lyrics requested by Microverse as a partial prerequisite for moving on to the next Module.
 The Home and About pages are necessary, others are good to have if possible.
 This is the design model for the website: https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
 And these are the project requirements:
 
-# h2 General requirements
+## General requirements
 
     Make sure that there are no linter errors.
     Make sure that you used correct GitHub flow.
     Make sure that you documented your work in a professional way.
 
-# h2 HTML/CSS & JavaScript requirements
+## HTML/CSS & JavaScript requirements
 
     Follow our list of best practices for HTML & CSS.
     Follow our list of best practices for JavaScript.
 
-# h2 Project requirements
+## Project requirements
 
     You should personalize the content of your page. Choose a topic that is different than the one in the original design.
 
@@ -86,12 +86,6 @@ Add the video link to your pull request description.
 ## Authors
 
 👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
 
 - GitHub: [@iKuartz](https://github.com/iKuartz/)
 - Twitter: [@iKuartz01](https://twitter.com/iKuartz01)
