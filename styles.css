@@ -43,7 +43,9 @@ p {
 .home-intro {
   display: flex;
   flex-direction: column;
-  padding: 2% 3% 18%;
+  padding: 2% 6% 18%;
+  background-image: url(./images/main_bg.jpg);
+  background-size: cover;
 }
 
 .intro-header {
@@ -69,6 +71,8 @@ p {
 .nav-ul-li-hamburger {
   position: absolute;
   display: block;
+  height: 30px;
+  width: 30px;
 }
 
 .nav-ul-li {
@@ -133,10 +137,12 @@ p {
 }
 
 .intro-description {
-  background-color: #f8f8f8;
+  background-color: #ebebeb;
   color: #272a31;
   line-height: 26px;
   margin: 4% 2%;
+  padding: 5% 3%;
+  border: solid white;
 }
 
 .intro-foundation {
@@ -151,8 +157,9 @@ p {
 .home-content {
   display: flex;
   flex-direction: column;
-  padding: 8% 2%;
+  padding: 8% 6%;
   color: white;
+  background-image: url(./images/about-bg.PNG);
 }
 
 .content-main {
@@ -172,13 +179,15 @@ p {
 
 .card-logo {
   width: 20%;
+  padding: 4%;
 }
 
 .card-subject {
   width: 30%;
   font-family: "Lato", sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
 }
+
 .card-description {
   width: 50%;
   padding: 2% 2% 2% 0%;
@@ -206,12 +215,43 @@ p {
   font-family: "Lato", sans-serif;
   text-transform: none;
   color: #313336;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: bold;
+  margin-bottom: 2%;
 }
 
 .featured-card {
   display: flex;
+}
+
+.card-left {
+  width: 30%;
+  margin-right: 3%;
+}
+
+.right-song-name {
+  color: #272a31;
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+}
+
+.right-performance {
+  color: #ec5242;
+  font-style: italic;
+}
+
+.right-summary {
+  color: #272a31;
+  font-size: 16px;
+}
+
+.featured-button {
+  width: 100%;
+  height: 50px;
+  margin: 10% 1% 5%;
+  background-color: white;
+  border: solid #d3d3d3;
+  color: #272a31;
 }
 
 .main-partners {
@@ -229,6 +269,8 @@ p {
   flex-direction: column;
   padding: 2% 6% 8%;
   background-color: #d3d3d34d;
+  background-image: url(./images/main_bg.jpg);
+  background-size: cover;
 }
 
 .about-hello {
@@ -287,27 +329,39 @@ p {
   margin: 2%;
 }
 
-.about-past{
+.about-logo-img {
+  align-self: center;
+  max-width: 80vw;
+  border: #272a313a;
+  border-style: solid;
+  margin-top: 10%;
+}
+
+.about-past {
   display: flex;
   flex-direction: column;
   padding: 8% 6%;
 }
 
 .past-title {
-  font-family: 'Lato',sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
   color: #272a31e0;
   font-weight: bold;
   text-transform: none;
 }
 
-.past-description{
+.past-description {
   color: #272a31;
   text-align: center;
   margin: 5% 0%;
 }
 
-.about-partners{
+.past-imgs {
+  margin: 2% 0%;
+}
+
+.about-partners {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -317,18 +371,18 @@ p {
   width: 100vw;
 }
 
-.partners-title{
+.partners-title {
   font-weight: bold;
   font-size: 24px;
 }
 
-.partners-above{
+.partners-above {
   display: flex;
   width: 100%;
   align-items: center;
 }
 
-.partners-under{
+.partners-under {
   display: flex;
   width: 100%;
   align-items: center;
@@ -336,7 +390,7 @@ p {
 
 .partner-logo {
   width: 20%;
-  margin:0% auto;
+  margin: 0% auto;
 }
 
 .about-footer {
@@ -344,24 +398,24 @@ p {
   padding: 5% 6%;
 }
 
-.footer-left{
+.footer-left {
   display: flex;
   justify-content: center;
   width: 50%;
 }
 
-.footer-right{
+.footer-right {
   display: flex;
   align-items: center;
   width: 50%;
 }
 
-.footer-disclaimer{
+.footer-disclaimer {
   color: #272a31;
 }
 
 .footer-dsk {
-  display:none
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
