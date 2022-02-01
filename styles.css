@@ -72,7 +72,7 @@ p {
   position: absolute;
   display: block;
   height: 30px;
-  width: 30px;
+  width: 35px;
 }
 
 .nav-ul-li {
@@ -296,6 +296,7 @@ p {
 .about-contact {
   color: #272a31;
   text-align: center;
+  margin: 10% 10% 0%;
 }
 
 .about-address {
@@ -311,6 +312,7 @@ p {
   display: flex;
   flex-direction: column;
   padding: 8% 6%;
+  border-bottom: solid #272a314b;
 }
 
 .about-h2 {
