@@ -38,6 +38,8 @@ p {
   color: #d3d3d3;
 }
 
+/* Home page */
+
 .home-intro {
   display: flex;
   flex-direction: column;
@@ -52,17 +54,73 @@ p {
   background-color: #272a31;
 }
 
+/* Menu beginning */
+
+.nav-ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
 .nav-ul-li-logo {
   display: none;
 }
 
-.nav-ul-li-hamburguer {
+.nav-ul-li-hamburger {
+  position: absolute;
   display: block;
 }
 
 .nav-ul-li {
   display: none;
 }
+
+.nav-ul-li-close {
+  display: none;
+}
+
+.nav-li-a {
+  text-decoration: none;
+  color: #ec5242;
+}
+
+.menu-open {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  width: auto;
+  padding: 2% 5% 10%;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  background-color: #272a31f5;
+}
+
+#intro-nav.menu-open .nav-ul-li {
+  display: flex;
+  color: #ec5242;
+}
+
+#intro-nav.menu-open .nav-ul-li-hamburger {
+  display: none;
+}
+
+#intro-nav.menu-open .nav-ul-li-logo {
+  display: none;
+}
+
+#intro-nav.menu-open .nav-ul-li-close {
+  display: flex;
+  justify-content: right;
+}
+
+#close {
+  align-self: flex-end;
+  margin-right: 5%;
+}
+
+/* Menu end */
 
 .intro-container {
   margin-top: 12%;
@@ -162,6 +220,38 @@ p {
 
 .main-footer {
   display: none;
+}
+
+/* About Page */
+
+.about-main {
+  display: flex;
+  flex-direction: column;
+  padding: 2% 3% 18%;
+}
+
+.about-hello {
+  color: #ec5242;
+  font-size: 24px;
+  margin-bottom: 1%;
+  text-align: center;
+}
+
+.about-h1 {
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+.about-description {
+  text-align: center;
+  color: #272a31;
+  background-color: white;
+  padding: 5% 2%;
+  line-height: 24px;
+}
+
+.about-contact {
+  color: #272a31;
 }
 
 @media screen and (min-width: 768px) {
