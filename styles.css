@@ -227,7 +227,8 @@ p {
 .about-main {
   display: flex;
   flex-direction: column;
-  padding: 2% 3% 18%;
+  padding: 2% 6% 8%;
+  background-color: #d3d3d34d;
 }
 
 .about-hello {
@@ -252,6 +253,109 @@ p {
 
 .about-contact {
   color: #272a31;
+  text-align: center;
+}
+
+.about-address {
+  text-align: center;
+}
+
+.about-email-a {
+  color: #272a31;
+  font-style: normal;
+}
+
+.about-logo {
+  display: flex;
+  flex-direction: column;
+  padding: 8% 6%;
+}
+
+.about-h2 {
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+  color: #272a31cc;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 2%;
+}
+
+.logo-desc {
+  color: #272a31;
+  text-align: center;
+  margin: 2%;
+}
+
+.about-past{
+  display: flex;
+  flex-direction: column;
+  padding: 8% 6%;
+}
+
+.past-title {
+  font-family: 'Lato',sans-serif;
+  text-align: center;
+  color: #272a31e0;
+  font-weight: bold;
+  text-transform: none;
+}
+
+.past-description{
+  color: #272a31;
+  text-align: center;
+}
+
+.about-partners{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #272a31;
+  height: 40vh;
+  width: 100vw;
+}
+
+.partners-title{
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.partners-above{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.partners-under{
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.partner-logo {
+  margin:0% auto;
+}
+
+.about-footer {
+  display: flex;
+  padding: 10% 6%;
+}
+
+.footer-left{
+  width: 50%;
+}
+
+.footer-right{
+  width: 50%;
+}
+
+.footer-disclaimer{
+  color: #272a31;
+}
+
+.footer-dsk {
+  display:none
 }
 
 @media screen and (min-width: 768px) {
