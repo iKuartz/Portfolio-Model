@@ -40,20 +40,16 @@ p {
 
 /* Home page */
 
+.intro-header {
+  display: none;
+}
+
 .home-intro {
   display: flex;
   flex-direction: column;
   padding: 2% 6% 18%;
   background-image: url(./images/main_bg.jpg);
   background-size: cover;
-}
-
-.intro-header {
-  display: none;
-}
-
-.home-content {
-  background-color: #272a31;
 }
 
 /* Menu beginning */
@@ -159,6 +155,7 @@ p {
   flex-direction: column;
   padding: 8% 6%;
   color: white;
+  background-color: #272a31;
   background-image: url(./images/about-bg.PNG);
 }
 
@@ -421,6 +418,69 @@ p {
 }
 
 @media screen and (min-width: 768px) {
+  /* Home page */
+  /* Header */
+  .intro-header {
+    display: flex;
+    background-color: #272a31;
+    color: #d3d3d3;
+    font-size: 14px;
+    justify-content: flex-end;
+  }
+
+  .header-ul {
+    display: flex;
+    list-style-type: none;
+    width: 50%;
+  }
+
+  .header-li {
+    margin: 0% 2%;
+    height: 20px;
+  }
+
+  .facebook-icon {
+    height: 20px;
+  }
+
+  .twitter-icon {
+    height: 20px;
+  }
+
+  /* Intro */
+
+  .home-intro {
+    padding-top: 0%;
+  }
+
+/* Menu beginning */
+
+  .nav-ul {
+  position: absolute;
+  left: 0%;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  background-color: white;
+  width: 100vw;
+  
+}
+
+  .nav-ul-li-logo {
+  display: block;
+}
+
+  .nav-ul-li {
+    display: block;
+  }
+
+  .nav-ul-li-hamburger {
+  display: none;
+  }
+
+
+
+  /* About Page */
   .about-hello {
     display: none;
   }
