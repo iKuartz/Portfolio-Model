@@ -205,6 +205,10 @@ p {
   border-color: #ec5242;
 }
 
+.content-program-dsk{
+  display:none;
+}
+
 .featured {
   display: flex;
   flex-direction: column;
@@ -536,7 +540,55 @@ p {
   /* End of intro */
   /* Beginning of content */
 
-  
+  .content-main {
+  }
+
+  .card-container {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 50%;
+  }
+
+  .content-card {
+    flex-direction: column;
+    width: 19%;
+    min-height: 100%;
+    margin: 5% 0%;
+  }
+
+  .card-logo {
+    height: 13vh;
+    width: auto;
+    padding: 10%;
+  }
+
+  .card-subject{
+    width: auto;
+    height: 10%;
+    text-align: center;
+  }
+
+  .card-description {
+    width: 90%;
+    height: 30%;
+    text-align: center;
+    font-size: 14px;
+    padding-bottom: 10%;
+  }
+
+  .content-join{
+    display: none;
+  }
+
+  .content-program-dsk{
+    display:flex;
+    align-self: center;
+    text-transform: uppercase;
+    color: #d3d3d3;
+  }
+
+  /* End of content section */
 
   /* About Page */
   .about-hello {
