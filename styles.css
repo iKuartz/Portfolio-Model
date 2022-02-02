@@ -121,6 +121,7 @@ p {
 }
 
 /* Menu end */
+/* Intro of main page */
 
 .intro-container {
   margin-top: 12%;
@@ -149,6 +150,9 @@ p {
   color: #272a31;
   font-size: 18px;
 }
+
+/* End of intro */
+/* Beginning of content */
 
 .home-content {
   display: flex;
@@ -430,13 +434,9 @@ p {
 
   .header-ul {
     display: flex;
+    justify-content: flex-end;
     list-style-type: none;
     width: 50%;
-  }
-
-  .header-li {
-    margin: 0% 2%;
-    height: 20px;
   }
 
   .facebook-icon {
@@ -447,51 +447,96 @@ p {
     height: 20px;
   }
 
+  .header-li {
+    margin: 0% 2%;
+    height: 20px;
+  }
+
+  .last-header {
+    margin-right: 10%;
+  }
+
+  /* Header end */
+
   /* Intro */
 
   .home-intro {
     padding-top: 0%;
   }
 
-/* Menu beginning */
+  /* Menu beginning */
 
   .nav-ul {
-  position: absolute;
-  left: 0%;
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  background-color: white;
-  width: 100vw;
-  height: 7%;
-  justify-content: space-around;
-  font-size: 14px;
-}
+    position: absolute;
+    left: 0%;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: white;
+    width: 100vw;
+    height: 8%;
+    justify-content: space-around;
+    font-size: 14px;
+  }
 
   .nav-ul-li-logo {
-  display: flex;
-  padding:0% 6%;
-}
+    display: flex;
+    padding: 0% 6%;
+  }
+
+  .menu-logo-img {
+    height: 100%;
+  }
 
   .nav-ul-li {
     display: flex;
-    padding:0% 2% 1%;
+    margin: auto 2%;
     align-items: flex-end;
     color: #272a31;
+  }
+
+  .last {
+    margin-right: 5%;
   }
 
   .crowdfunding {
     color: #ec5242;
     border: solid #ec5242 4px;
-    padding: 0% 1% 1%;
-
+    padding: 5% 4%;
+    margin: 0% 3%;
+    background-color: white;
   }
 
   .nav-ul-li-hamburger {
-  display: none;
+    display: none;
   }
 
+  /* End of menu */
+  /* Intro of main page */
 
+  .intro-container {
+    margin-top: 18%;
+    width: 60%;
+  }
+
+  .container-hello {
+    font-size: 26px;
+  }
+
+  .intro-description {
+    width: 60%;
+    padding: 3% 2%;
+    margin-left: 0%;
+  }
+
+  .intro-foundation {
+    color: #272a31;
+  }
+
+  /* End of intro */
+  /* Beginning of content */
+
+  
 
   /* About Page */
   .about-hello {
