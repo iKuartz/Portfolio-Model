@@ -463,15 +463,21 @@ p {
   list-style-type: none;
   background-color: white;
   width: 100vw;
-  
+  height: 7%;
+  justify-content: space-evenly;
+  font-size: 14px;
 }
 
   .nav-ul-li-logo {
-  display: block;
+  display: flex;
+  padding:0% 6%;
 }
 
   .nav-ul-li {
-    display: block;
+    display: flex;
+    padding:0% 2% 1%;
+    align-items: flex-end;
+    color: #272a31;
   }
 
   .nav-ul-li-hamburger {
