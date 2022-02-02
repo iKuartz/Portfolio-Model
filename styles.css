@@ -464,7 +464,7 @@ p {
   background-color: white;
   width: 100vw;
   height: 7%;
-  justify-content: space-evenly;
+  justify-content: space-around;
   font-size: 14px;
 }
 
@@ -478,6 +478,13 @@ p {
     padding:0% 2% 1%;
     align-items: flex-end;
     color: #272a31;
+  }
+
+  .crowdfunding {
+    color: #ec5242;
+    border: solid #ec5242 4px;
+    padding: 0% 1% 1%;
+
   }
 
   .nav-ul-li-hamburger {
