@@ -546,9 +546,6 @@ p {
   /* End of intro */
   /* Beginning of content */
 
-  .content-main {
-  }
-
   .card-container {
     display: flex;
     flex-direction: row;
