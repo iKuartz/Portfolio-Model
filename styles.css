@@ -104,12 +104,23 @@ p {
   padding: 5%;
 }
 
+#intro-nav.menu-open .crowdfunding{
+  display: flex;
+  color: #ec5242;
+  font-size: 24px;
+  padding: 5%;
+}
+
 #intro-nav.menu-open .nav-ul-li-hamburger {
   display: none;
 }
 
 #intro-nav.menu-open .nav-ul-li-logo {
-  display: none;
+  display: flex;
+}
+
+#intro-nav.menu-open .menu-logo-img {
+  width: 50%;
 }
 
 #intro-nav.menu-open .nav-ul-li-close {
@@ -223,16 +234,25 @@ p {
   color: #313336;
   font-size: 24px;
   font-weight: bold;
-  margin-bottom: 2%;
+  margin-bottom: 10%;
 }
 
 .featured-card {
   display: flex;
 }
 
+.card-dsk{
+  display: none;
+}
+
 .card-left {
-  width: 30%;
-  margin-right: 3%;
+  width: auto;
+  margin: 2%
+}
+
+.card-right {
+  width: auto;
+  margin: 2%
 }
 
 .right-song-name {
@@ -244,6 +264,7 @@ p {
 .right-performance {
   color: #ec5242;
   font-style: italic;
+  margin-bottom: 5%;
 }
 
 .right-summary {
@@ -595,6 +616,16 @@ p {
   /* End of content section */
   /* Begin Featured section */
 
+  #songs{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: center;
+  }
+
+  .card-dsk{
+  display: flex;
+}
+
   /* End of Featured section */
   /* Partners section */
 
@@ -632,6 +663,10 @@ p {
     margin: 0% 2%;
   }
 
+.main-footer{
+  display:flex
+}
+
   .footer-left{
     width: 40%;
   }
@@ -640,14 +675,19 @@ p {
     width: 60%;
   }
 
-
   .footer-right {
     flex-direction: column;
     align-items: flex-start;
   }
 
+.footer-disclaimer{
+  color: #272a31;
+  padding-bottom: 2%;
+}
+
   .footer-dsk {
     display: flex;
+    color: #272a31;
   }
 
   /* About Page */
@@ -690,9 +730,8 @@ p {
     width: 65%;
   }
 
-  .footer-disclaimer{
+  .footer-disclaimer-about{
     color: #d3d3d3;
-    padding-bottom: 2%;
   }
 }
 
