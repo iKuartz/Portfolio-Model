@@ -4,7 +4,8 @@
 
 > Capstone project for Module 1 of Microverse's program.
 
-![screenshot](./app_screenshot.png)
+![Desktop Version](./images/desktop_version.png)
+![Mobile Version](./images/mobile.png)
 
 Website about poetic song lyrics requested by Microverse as a partial prerequisite for moving on to the next Module. <br>
 The Home and About pages are necessary, others are good to have if possible.<br>
