@@ -80,7 +80,7 @@ Add the video link to your pull request description.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ikuartz.github.io/Module1-capstone/)
 
 
 ## Authors
@@ -95,7 +95,7 @@ Add the video link to your pull request description.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/iKuartz/Module1-capstone/issues).
 
 ## Show your support
 
