@@ -86,9 +86,11 @@ function generateHTML(details) {
 /* eslint-enable no-tabs */
 
 // eslint-disable-next-line array-callback-return
-songs.map((song) => {
-  const HTMLElement = document.createElement('div');
-  HTMLElement.innerHTML = generateHTML(song);
-
-  songsSection.appendChild(HTMLElement);
-});
+window.onload = () => {
+    songs.map((song) => {
+      const HTMLElement = document.createElement('div');
+      HTMLElement.innerHTML = generateHTML(song);
+    
+      songsSection.appendChild(HTMLElement);
+    })
+ }
