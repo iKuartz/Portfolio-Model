@@ -1,28 +1,29 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Poetic Song Lyrics
 
 > Capstone project for Module 1 of Microverse's program.
 
-![screenshot](./app_screenshot.png)
+![Desktop Version](./images/desktop_version.png)
+![Mobile Version](./images/mobile.png)
 
-Website about American Poetry requested by Microverse as a partial prerequisite for moving on to the next Module.
-The Home and About pages are necessary, others are good to have if possible.
-This is the design model for the website: https://www.behance.net/gallery/29845175/CC-Global-Summit-2015
+Website about poetic song lyrics requested by Microverse as a partial prerequisite for moving on to the next Module. <br>
+The Home and About pages are necessary, others are good to have if possible.<br>
+This is the design model for the website: https://www.behance.net/gallery/29845175/CC-Global-Summit-2015<br>
 And these are the project requirements:
 
-# h2 General requirements
+## General requirements
 
     Make sure that there are no linter errors.
     Make sure that you used correct GitHub flow.
     Make sure that you documented your work in a professional way.
 
-# h2 HTML/CSS & JavaScript requirements
+## HTML/CSS & JavaScript requirements
 
     Follow our list of best practices for HTML & CSS.
     Follow our list of best practices for JavaScript.
 
-# h2 Project requirements
+## Project requirements
 
     You should personalize the content of your page. Choose a topic that is different than the one in the original design.
 
@@ -80,18 +81,12 @@ Add the video link to your pull request description.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://ikuartz.github.io/Module1-capstone/)
 
 
 ## Authors
 
 👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
 
 - GitHub: [@iKuartz](https://github.com/iKuartz/)
 - Twitter: [@iKuartz01](https://twitter.com/iKuartz01)
@@ -101,7 +96,7 @@ Add the video link to your pull request description.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/iKuartz/Module1-capstone/issues).
 
 ## Show your support
 
@@ -117,7 +112,7 @@ Give a ⭐️ if you like this project!
 
 This website was created based on the model kindly provided by [Cindy Shin](https://www.behance.net/adagio07) under the licence CC BY-NC 4.0.
 
-# h2 Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+## Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 
 Disclaimer: This is a human-readable summary of (and not a substitute for) the [license](https://creativecommons.org/licenses/by-nc/4.0/legalcode).
 
