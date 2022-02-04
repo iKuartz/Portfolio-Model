@@ -20,7 +20,7 @@ h3 {
 h1 {
   color: #ec5242;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
 }
 
@@ -650,7 +650,7 @@ p {
   }
 
   .partners-title {
-    margin: 1% 0% 0%;
+    margin: 3% 0% 0%;
   }
 
   .partners-above {
@@ -670,11 +670,12 @@ p {
   .partner-logo-dsk {
     display: flex;
     width: 10%;
-    margin: 0% 2%;
+    margin: 5% 2%;
   }
 
   .main-footer {
     display: flex;
+    margin: 5% 0%;
   }
 
   .footer-left {
@@ -729,11 +730,8 @@ p {
     background-color: #272a31;
   }
 
-  .footer-dsk {
+  .about-footer .footer-dsk {
     color: #d3d3d3;
     padding-top: 2%;
   }
 }
-
-/* More button in javascript can be done with changing
- the height and overflow: hidden */

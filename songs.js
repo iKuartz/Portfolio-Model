@@ -87,6 +87,7 @@ function generateHTML(details) {
 
 // eslint-disable-next-line array-callback-return
 window.onload = () => {
+  // eslint-disable-next-line array-callback-return
     songs.map((song) => {
       const HTMLElement = document.createElement('div');
       HTMLElement.innerHTML = generateHTML(song);
